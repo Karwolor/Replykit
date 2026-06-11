@@ -49,6 +49,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-blue-50 border border-blue-200 rounded-2xl max-w-6xl mx-auto px-4 py-8 mb-12">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div>
+            <h3 className="font-bold text-lg text-blue-900 mb-2">🎁 Free Trial Plan</h3>
+            <p className="text-blue-700 text-sm mb-3">
+              Try ReplyKit for free with daily limits:
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <div>
+                <span className="font-bold text-xl text-blue-900">10</span>
+                <p className="text-xs text-blue-600">copies/day</p>
+              </div>
+              <div>
+                <span className="font-bold text-xl text-blue-900">5</span>
+                <p className="text-xs text-blue-600">personalizations/day</p>
+              </div>
+            </div>
+          </div>
+          <p className="text-sm text-blue-600">
+            Hit the limit? <span className="font-semibold">Email us</span> for a 7-day extension.
+          </p>
+        </div>
+      </section>
+
       <section className="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
         {[
           {
